@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Isi" representedClassName="Isi" syncable="YES" codeGenerationType="class">
+        <attribute name="nama" optional="YES" attributeType="String"/>
+        <attribute name="notlp" optional="YES" attributeType="String"/>
+        <relationship name="parentKategori" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Kategori" inverseName="childIsi" inverseEntity="Kategori"/>
+    </entity>
+    <entity name="Kategori" representedClassName="Kategori" syncable="YES" codeGenerationType="class">
+        <attribute name="listKategori" optional="YES" attributeType="String"/>
+        <relationship name="childIsi" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Isi" inverseName="parentKategori" inverseEntity="Isi"/>
+    </entity>
+    <elements>
+        <element name="Isi" positionX="130.08544921875" positionY="-39.06103515625" width="128" height="88"/>
+        <element name="Kategori" positionX="-81.7747802734375" positionY="-31.5958251953125" width="128" height="73"/>
+    </elements>
 </model>

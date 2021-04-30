@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7011AEA6263BBFE9007CBA79 /* InputIsiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7011AEA5263BBFE9007CBA79 /* InputIsiViewController.swift */; };
+		7014824B263BCDA90055A090 /* SecHalUtamaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7014824A263BCDA90055A090 /* SecHalUtamaViewController.swift */; };
 		708547AE263A5D320008CB36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708547AD263A5D320008CB36 /* AppDelegate.swift */; };
 		708547B0263A5D320008CB36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708547AF263A5D320008CB36 /* SceneDelegate.swift */; };
 		708547B2263A5D320008CB36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708547B1263A5D320008CB36 /* ViewController.swift */; };
@@ -14,9 +16,14 @@
 		708547B8263A5D320008CB36 /* relationCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 708547B6263A5D320008CB36 /* relationCoreData.xcdatamodeld */; };
 		708547BA263A5D330008CB36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708547B9263A5D330008CB36 /* Assets.xcassets */; };
 		708547BD263A5D330008CB36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708547BB263A5D330008CB36 /* LaunchScreen.storyboard */; };
+		708547C6263A5EDF0008CB36 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708547C5263A5EDF0008CB36 /* CategoryViewController.swift */; };
+		708547C9263A62FC0008CB36 /* InputKategoriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708547C8263A62FC0008CB36 /* InputKategoriViewController.swift */; };
+		708547CC263A80310008CB36 /* HalamanUtamaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708547CB263A80310008CB36 /* HalamanUtamaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7011AEA5263BBFE9007CBA79 /* InputIsiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputIsiViewController.swift; sourceTree = "<group>"; };
+		7014824A263BCDA90055A090 /* SecHalUtamaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecHalUtamaViewController.swift; sourceTree = "<group>"; };
 		708547AA263A5D320008CB36 /* relationCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = relationCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		708547AD263A5D320008CB36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		708547AF263A5D320008CB36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +33,9 @@
 		708547B9263A5D330008CB36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		708547BC263A5D330008CB36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		708547BE263A5D330008CB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708547C5263A5EDF0008CB36 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		708547C8263A62FC0008CB36 /* InputKategoriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputKategoriViewController.swift; sourceTree = "<group>"; };
+		708547CB263A80310008CB36 /* HalamanUtamaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalamanUtamaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,11 @@
 				708547BB263A5D330008CB36 /* LaunchScreen.storyboard */,
 				708547BE263A5D330008CB36 /* Info.plist */,
 				708547B6263A5D320008CB36 /* relationCoreData.xcdatamodeld */,
+				708547C5263A5EDF0008CB36 /* CategoryViewController.swift */,
+				708547C8263A62FC0008CB36 /* InputKategoriViewController.swift */,
+				708547CB263A80310008CB36 /* HalamanUtamaViewController.swift */,
+				7011AEA5263BBFE9007CBA79 /* InputIsiViewController.swift */,
+				7014824A263BCDA90055A090 /* SecHalUtamaViewController.swift */,
 			);
 			path = relationCoreData;
 			sourceTree = "<group>";
@@ -140,10 +155,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				708547C6263A5EDF0008CB36 /* CategoryViewController.swift in Sources */,
 				708547B2263A5D320008CB36 /* ViewController.swift in Sources */,
 				708547AE263A5D320008CB36 /* AppDelegate.swift in Sources */,
+				7011AEA6263BBFE9007CBA79 /* InputIsiViewController.swift in Sources */,
+				708547C9263A62FC0008CB36 /* InputKategoriViewController.swift in Sources */,
 				708547B8263A5D320008CB36 /* relationCoreData.xcdatamodeld in Sources */,
+				708547CC263A80310008CB36 /* HalamanUtamaViewController.swift in Sources */,
 				708547B0263A5D320008CB36 /* SceneDelegate.swift in Sources */,
+				7014824B263BCDA90055A090 /* SecHalUtamaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
